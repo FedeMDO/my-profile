@@ -1,0 +1,46 @@
+import { SparkleIcon } from '@/components/SparkleIcon'
+import { generateRssFeed } from '@/lib/generateRssFeed'
+
+export async function getStaticProps() {
+  if (process.env.NODE_ENV === 'production') {
+    await generateRssFeed()
+  }
+  return { props: {} }
+}
+
+---
+
+[![C2FO](@/images/c2fo-logo.svg 'C2FO Logo')](https://c2fo.com/)
+
+## [C2FO](https://c2fo.com/) {{ date: '2023-04-06T00:00Z' }}
+
+Lorem ipsum
+
+### <SparkleIcon /> Achievements
+
+- bla bla
+
+---
+
+[![Scorf.io](@/images/scorf-logo.png 'Scorf.io Logo')](https://scorf.io/)
+
+## [Scorf.io](https://scorf.io/) {{ date: '2023-03-17T00:00Z' }}
+
+Lorem ipsum
+
+### <SparkleIcon /> Achievements
+
+- Bla
+
+---
+
+[![Stenfar](@/images/stenfar-logo.png 'Stenfar Logo')](https://www.stenfar.com.ar/)
+![]()
+
+## [Suzano Stenfar](https://www.stenfar.com.ar/) {{ date: '2023-03-06T00:00Z' }}
+
+Lorem ipsum
+
+### <SparkleIcon /> Achievements
+
+- Bla
