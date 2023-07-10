@@ -12,10 +12,10 @@ export default function App({ Component, pageProps }) {
   return (
     <>
       <Head>
-        <title>Commit - Open-source Git client for macOS minimalists</title>
+        <title>Fede Montes - Software Engineer</title>
         <meta
           name="description"
-          content="Commit is a lightweight Git client you can open from anywhere any time you’re ready to commit your work with a single keyboard shortcut. It’s fast, beautiful, and completely unnecessary."
+          content="Fede Montes is a software engineer based in Buenos Aires, Argentina. He's currently working at C2FO through Number8, a contracting company."
         />
         <link rel="icon" href="/me-world-cup.jpg" sizes="any" />
       </Head>
