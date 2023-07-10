@@ -53,7 +53,8 @@ export function Intro() {
   return (
     <>
       <Image
-        className="cursor-messi rounded-sm hover:grayscale"
+        // grayscale config: on mobile, grayscale is retired on hover. On desktop, it's the opposite.
+        className="cursor-messi rounded-sm grayscale hover:grayscale-0 lg:grayscale-0 lg:hover:grayscale"
         src="/me-world-cup.jpg"
         alt="Federico Montes photo"
         width={250}
