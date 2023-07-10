@@ -1,5 +1,6 @@
 import { IconLink } from '@/components/IconLink'
 import { Button } from '@/components/Button'
+import Image from 'next/image'
 
 function GitHubIcon(props) {
   return (
@@ -23,18 +24,18 @@ function LinkedinIcon(props) {
       {
         <g
           fill="none"
-          fill-rule="nonzero"
+          fillRule="nonzero"
           stroke="none"
-          stroke-width="1"
-          stroke-linecap="butt"
-          stroke-linejoin="miter"
-          stroke-miterlimit="10"
-          stroke-dasharray=""
-          stroke-dashoffset="0"
-          font-family="none"
-          font-weight="none"
-          font-size="none"
-          text-anchor="none"
+          strokeWidth="1"
+          strokeLinecap="butt"
+          strokeLinejoin="miter"
+          strokeMiterlimit="10"
+          strokeDasharray=""
+          strokeDashoffset="0"
+          fontFamily="none"
+          fontWeight="none"
+          fontSize="none"
+          textAnchor="none"
         >
           <path d="M0,192v-192h192v192z" fill="none"></path>
           <g fill="#ffffff">
@@ -51,6 +52,13 @@ function LinkedinIcon(props) {
 export function Intro() {
   return (
     <>
+      <Image
+        className="cursor-messi rounded-sm hover:grayscale"
+        src="/me-world-cup.jpg"
+        alt="Federico Montes photo"
+        width={250}
+        height={250}
+      />
       <h1 className="mt-14 font-display text-4xl/tight font-light text-white">
         Federico Montes <span className="text-sky-300">Software Engineer</span>
       </h1>

@@ -17,6 +17,7 @@ export default function App({ Component, pageProps }) {
           name="description"
           content="Commit is a lightweight Git client you can open from anywhere any time you’re ready to commit your work with a single keyboard shortcut. It’s fast, beautiful, and completely unnecessary."
         />
+        <link rel="icon" href="/me-world-cup.jpg" sizes="any" />
       </Head>
       <ThemeProvider attribute="class" disableTransitionOnChange>
         <MDXProvider components={mdxComponents}>

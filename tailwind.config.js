@@ -6,6 +6,9 @@ module.exports = {
   darkMode: 'class',
   theme: {
     extend: {
+      cursor: {
+        messi: 'url(/messi-world-cup.png), auto',
+      },
       fontSize: {
         '2xs': '.6875rem',
       },
